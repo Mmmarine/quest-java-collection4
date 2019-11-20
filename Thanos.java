@@ -14,7 +14,7 @@ public class Thanos {
         Hero vision = new Hero("Vision", 3);
         Hero scarletWitch = new Hero("Scarlet Witch", 29);
         Hero doctorStrange = new Hero("Doctor Strange", 42);
-        ;
+
         Flower lily = new Flower("Lily");
         Flower tulip = new Flower("Tulip");
         Flower begonia = new Flower("Begonia");
@@ -36,6 +36,7 @@ public class Thanos {
         Map<Hero, Flower> party = new TreeMap<>(comparator);
                 party.put(hulk, rose);
                 party.put(thor, rose);
+                party.put(scarletWitch, rose);
                 party.put(vision, tulip);
                 party.put(captainAmerica, lily);
                 party.put(doctorStrange, violet);
